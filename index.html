@@ -7,6 +7,7 @@
     body {
       background-color: #000;
       margin: 0;
+      padding: 0;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -26,3 +27,9 @@
   <video src="page_qui_tourne_2.mp4" autoplay loop controls></video>
 </body>
 </html>
+
+<script>
+  window.addEventListener("load", () => {
+    document.body.style.display = "flex";
+  });
+</script>
